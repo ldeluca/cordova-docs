@@ -73,7 +73,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
     </engines>
     
 
-기본 목록에 엔진은 여기에 '<engine>' 태그를 지원 합니다: * '코르도바' * ' 코르도바-plugman' * ' 코르도바-아마존-fireos' * ' 코르도바-안 드 로이드 ' * ' 코르도바-ios' * ' 코르도바-blackberry10' * ' 코르도바 wp7' * ' 코르도바-wp8' * ' 코르도바 windows8'  
+기본 목록에 엔진은 여기에 '<engine>' 태그를 지원 합니다: * '코르도바' * ' 코르도바-plugman' * ' 코르도바-아마존-fireos' * ' 코르도바-안 드 로이드 ' * ' 코르도바-ios' * ' 코르도바-blackberry10' * ' 코르도바-wp8' * ' 코르도바 windows8'  
 * ' 안 드 로이드 sdk' / 설치 수준 높은 안 드 로이드 api 반환 / * ' 애플-xcode' / xcode 버전 반환 합니다 / * ' 애플-ios' / / 설치 된 가장 높은 iOS 버전을 반환 합니다 * ' 애플-os x ' / OSX 버전 반환 합니다 / * ' 블랙베리 ndk' / / 네이티브 blackberry SDK 버전을 반환 합니다
 
 이렇게 사용자 정의 아파치 코르도바 기반 프레임 워크 엔진 태그 아래 나열 되어야 합니다 지정:
@@ -241,8 +241,8 @@ plugman 누구의 대상 프로젝트 엔진의 제약 조건을 충족 하지 �
 *   안 드 로이드
 *   blackberry10
 *   ios
-*   wp7
 *   wp8
+*   windows8
 
 ## *소스 파일* 요소
 
@@ -372,6 +372,7 @@ XML에 대 한 예제:
     <framework src="libsqlite3.dylib" />
     <framework src="social.framework" weak="true" />
     <framework src="relative/path/to/my.framework" custom="true" />
+    <framework src="path/to/project/LibProj.csproj" custom="true" type="projectReference"/>
     
 
 `src`는 plugman 지정된 된 플랫폼에 대 한 올바른 방식 코르도바 프로젝트에 추가 하려고 하는 프레임 워크를 식별 하는 특성.
@@ -379,6 +380,8 @@ XML에 대 한 예제:
 옵션 `weak` 특성은 프레임 워크 약하게 연결 되어야 하는지 여부를 나타내는 boolean입니다. 기본값은`false`.
 
 옵션 `custom` 특성은 프레임 워크 하나 플러그인 파일의 일부로 포함 되어 있는지 여부를 나타내는 부울 값입니다 (따라서 아니에요 시스템 프레임 워크). 기본값은`false`.
+
+옵션 `type` 특성은 추가 하는 프레임 워크의 형식을 나타내는 문자열입니다. 현재 `projectReference` 지원 되는 윈도우 8에만. 사용 하 여 `custom='true'` 및 `type='projectReference'` 는 컴파일 추가 됩니다 + 코르 도우 바 프로젝트의 단계를 연결 하는 프로젝트에 대 한 참조를 추가 합니다. 이 본질적으로 유일한 방법은 현재 프레임 워크를 '사용자 정의'로 그들은 명시적으로 참조 코르도바 응용 프로그램 종속성으로 빌드된 여러 아키텍처를 타겟팅 할 수 있습니다.
 
 ## *정보* 요소
 

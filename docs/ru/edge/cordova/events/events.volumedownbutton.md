@@ -23,15 +23,15 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 
 ## Подробная информация
 
-Если необходимо переопределить по умолчанию громкости поведение вы можете зарегистрировать прослушиватель событий для `volumedownbutton` событие.
+Если необходимо переопределить поведение по умолчанию кнопки уменьшения громкости вы можете зарегистрировать обработчик для события `volumedownbutton`.
 
-Приложения обычно должны использовать `document.addEventListener` прикрепить прослушиватель событий после `deviceready` пожаров события.
+Приложения обычно должны использовать `window.addEventListener` чтобы добавить обработчик события после того как произойдет событие `deviceready`.
 
 ## Поддерживаемые платформы
 
 *   BlackBerry 10
 
-## Быстрый пример
+## Краткий пример
 
     document.addEventListener("volumedownbutton", onVolumeDownKeyDown, false);
     

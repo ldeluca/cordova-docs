@@ -28,8 +28,6 @@ También conocido como *web storage*, *almacenamiento de información simple*, o
 
  [2]: http://www.w3.org/TR/webstorage/
 
-**Windows Phone 7 chanfle**: notación de puntos es *no* disponible, así que asegúrate de usar `setItem` o `getItem` en lugar de acceder a las teclas directamente desde el objeto de almacenamiento, como en`window.localStorage.someKey`.
-
 ## WebSQL
 
 Esta API está disponible en la vista Web subyacente. La [Especificación de base de datos de SQL Web][3] ofrece más tablas de base de datos completa accede a través de consultas SQL.
@@ -51,8 +49,9 @@ Esta API está disponible en la vista Web subyacente. [Indexadas DB][4] ofrece m
 
 Las siguientes plataformas soportan IndexedDB:
 
-*   Windows Phone 8
 *   BlackBerry 10
+*   Windows Phone 8
+*   Windows 8
 
 ## Opciones basadas en plugin
 

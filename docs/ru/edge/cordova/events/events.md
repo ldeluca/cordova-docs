@@ -21,8 +21,8 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 ## Типы событий
 
 *   deviceready
-*   Пауза
-*   резюме
+*   pause
+*   resume
 *   backbutton
 *   menubutton
 *   searchbutton

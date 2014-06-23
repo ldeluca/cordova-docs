@@ -43,18 +43,12 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
       </th>
       
       <th>
-        <tt>WP7</tt> (Windows<br />Phone 7)
-      </th>
-      
-      <th>
         <tt>wp8</tt> (Windows<br />Téléphone 8)
       </th>
       
       <th>
         <tt>WIN8</tt><br />(Windows 8)
       </th>
-      
-      <!--        <th><tt>firefoxos</tt></th> -->
       
       <th>
         <tt>paciarelli</tt>
@@ -87,10 +81,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         
         <td data-col="ubuntu"        class="y">
           Ubuntu
-        </td>
-        
-        <td data-col="winphone7"  class="y">
-          Windows
         </td>
         
         <td data-col="winphone8"  class="y">
@@ -130,9 +120,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         <td data-col="ubuntu"        class="y">
         </td>
         
-        <td data-col="winphone7"  class="n">
-        </td>
-        
         <td data-col="winphone8"  class="n">
         </td>
         
@@ -168,10 +155,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         </td>
         
         <td data-col="ubuntu"        class="y">
-        </td>
-        
-        <td data-col="winphone7"  class="y">
-          <a href="guide_guide_platforms_wp8_plugin.md.html">(voir détails)</a>
         </td>
         
         <td data-col="winphone8"  class="y">
@@ -217,9 +200,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         <td data-col="ubuntu"        class="y">
         </td>
         
-        <td data-col="winphone7"  class="y">
-        </td>
-        
         <td data-col="winphone8"  class="y">
         </td>
         
@@ -253,9 +233,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         <td data-col="ubuntu"        class="y">
         </td>
         
-        <td data-col="winphone7"  class="y">
-        </td>
-        
         <td data-col="winphone8"  class="y">
         </td>
         
@@ -287,9 +264,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         </td>
         
         <td data-col="ubuntu"        class="y">
-        </td>
-        
-        <td data-col="winphone7"  class="y">
         </td>
         
         <td data-col="winphone8"  class="y">
@@ -326,9 +300,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         <td data-col="ubuntu"        class="y">
         </td>
         
-        <td data-col="winphone7"  class="y">
-        </td>
-        
         <td data-col="winphone8"  class="y">
         </td>
         
@@ -360,9 +331,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         </td>
         
         <td data-col="ubuntu"        class="y">
-        </td>
-        
-        <td data-col="winphone7"  class="y">
         </td>
         
         <td data-col="winphone8"  class="y">
@@ -398,9 +366,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         <td data-col="ubuntu"        class="y">
         </td>
         
-        <td data-col="winphone7"  class="y">
-        </td>
-        
         <td data-col="winphone8"  class="y">
         </td>
         
@@ -432,9 +397,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         </td>
         
         <td data-col="ubuntu"        class="y">
-        </td>
-        
-        <td data-col="winphone7"  class="y">
         </td>
         
         <td data-col="winphone8"  class="y">
@@ -470,9 +432,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         <td data-col="ubuntu"        class="y">
         </td>
         
-        <td data-col="winphone7"  class="y">
-        </td>
-        
         <td data-col="winphone8"  class="y">
         </td>
         
@@ -504,9 +463,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         </td>
         
         <td data-col="ubuntu"        class="y">
-        </td>
-        
-        <td data-col="winphone7"  class="y">
         </td>
         
         <td data-col="winphone8"  class="y">
@@ -542,9 +498,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         <td data-col="ubuntu"        class="y">
         </td>
         
-        <td data-col="winphone7"  class="y">
-        </td>
-        
         <td data-col="winphone8"  class="y">
         </td>
         
@@ -578,9 +531,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         <td data-col="ubuntu"        class="y">
         </td>
         
-        <td data-col="winphone7"  class="y">
-        </td>
-        
         <td data-col="winphone8"  class="y">
         </td>
         
@@ -612,9 +562,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         </td>
         
         <td data-col="ubuntu"        class="y">
-        </td>
-        
-        <td data-col="winphone7"  class="y">
         </td>
         
         <td data-col="winphone8"  class="y">
@@ -651,9 +598,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         <td data-col="ubuntu"        class="y">
         </td>
         
-        <td data-col="winphone7"  class="y">
-        </td>
-        
         <td data-col="winphone8"  class="y">
         </td>
         
@@ -685,9 +629,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         </td>
         
         <td data-col="ubuntu"        class="y">
-        </td>
-        
-        <td data-col="winphone7"  class="y">
         </td>
         
         <td data-col="winphone8"  class="y">
@@ -723,9 +664,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         <td data-col="ubuntu"        class="y">
         </td>
         
-        <td data-col="winphone7"  class="y">
-        </td>
-        
         <td data-col="winphone8"  class="y">
         </td>
         
@@ -757,10 +695,6 @@ Vous trouverez ci-dessous l'ensemble des outils de développement et dispositif 
         </td>
         
         <td data-col="ubuntu"        class="y">
-        </td>
-        
-        <td data-col="winphone7"  class="y">
-          localStorage & indexedDB
         </td>
         
         <td data-col="winphone8"  class="y">

@@ -73,7 +73,7 @@ Le `<engine>` tags possède aussi un support par défaut pour toutes les princip
     </engines>
     
 
-Voici une liste de la défaillance des moteurs qui les »<engine>' tag prend en charge: * « cordova » * « cordova-plugman » * « cordova-amazon-fireos » * « cordova-android » * « cordova-ios » * « cordova-blackberry10 » * « cordova-wp7 » * « cordova-wp8 » * « cordova-windows8 »  
+Voici une liste de la défaillance des moteurs qui les »<engine>' tag prend en charge: * « cordova » * « cordova-plugman » * « cordova-amazon-fireos » * « cordova-android » * « cordova-ios » * « cordova-blackberry10 » * « cordova-wp8 » * « cordova-windows8 »  
 * ' android-sdk / / retourne l'api Android plus élevé niveau installé * « apple-xcode » / / retourne la version de xcode * « apple-ios » / / retourne la plus haute version d'iOS installée * « apple-OS x » / / retourne la version OSX * « blackberry-ndk » / / retourne la version SDK natif blackberry
 
 En spécifiant des cadres personnalisés basé sur Apache Cordova doivent figurer sous la balise de moteur comme suit :
@@ -241,8 +241,8 @@ Les noms de plate-forme doivent être en minuscules. Les noms de plate-forme, so
 *   Android
 *   blackberry10
 *   iOS
-*   WP7
 *   wp8
+*   Windows8
 
 ## *fichier source* Élément
 
@@ -369,7 +369,10 @@ Identifie un cadre (généralement une partie de la plate-forme/OS) dont dépend
 
 Exemples :
 
-    < cadre src="libsqlite3.dylib « / >< cadre src="social.framework "faible ="true"/ >< cadre src="relative/path/to/my.framework » personnalisé = "true" / >
+    <framework src="libsqlite3.dylib" />
+    <framework src="social.framework" weak="true" />
+    <framework src="relative/path/to/my.framework" custom="true" />
+    <framework src="path/to/project/LibProj.csproj" custom="true" type="projectReference"/>
     
 
 Le `src` attribut identifie le cadre, qui plugman tente d'ajouter au projet Cordova, dans le mode correct pour une plate-forme donnée.
@@ -377,6 +380,8 @@ Le `src` attribut identifie le cadre, qui plugman tente d'ajouter au projet Cord
 Le paramètre optionnel `weak` attribut est une valeur booléenne qui indique si le cadre devrait être faiblement lié. La valeur par défaut est`false`.
 
 Le paramètre optionnel `custom` attribut est une valeur booléenne qui indique si le cadre est celui qui est inclus dans le cadre de vos fichiers du plugin (donc il n'est pas une infrastructure de système). La valeur par défaut est`false`.
+
+Le paramètre optionnel `type` attribut est une chaîne indiquant le type de cadre à ajouter. Actuellement, seul `projectReference` est pris en charge uniquement sur Windows 8. À l'aide de `custom='true'` et `type='projectReference'` va ajouter une référence au projet qui sera ajouté à la compilation + lien vers les étapes du projet cordova. Essentiellement, c'est le seul moyen actuellement qu'un cadre « personnalisé » peut cibler plusieurs architectures comme ils sont explicitement construit comme une dépendance de l'application de cordova référencement.
 
 ## *info* Élément
 

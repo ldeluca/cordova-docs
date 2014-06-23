@@ -20,7 +20,9 @@ Un *plugin* est un ensemble de code injecté qui permet le webview Cordova, dans
 
  [1]: http://plugins.cordova.io
 
-Plugins comportent une seule interface JavaScript ainsi que les bibliothèques de code natif correspondant pour chaque plate-forme prise en charge. Étapes de cette section à un plugin simple *écho* qui transmet une chaîne à partir de JavaScript pour la plate-forme native et le retour, que vous pouvez utiliser comme modèle pour créer des fonctionnalités beaucoup plus complexes. Cette section traite de la structure du plugin de base et l'interface JavaScript donnant sur l'extérieur. Pour chaque interface native correspondante, consultez la liste à la fin de cette section.
+Plugins comportent une seule interface JavaScript ainsi que les bibliothèques de code natif correspondant pour chaque plate-forme prise en charge. En substance, cela masque les diverses implémentations de code natif derrière une interface commune de JavaScript.
+
+Étapes de cette section à un plugin simple *écho* qui transmet une chaîne à partir de JavaScript pour la plate-forme native et le retour, que vous pouvez utiliser comme modèle pour créer des fonctionnalités beaucoup plus complexes. Cette section traite de la structure du plugin de base et l'interface JavaScript donnant sur l'extérieur. Pour chaque interface native correspondante, consultez la liste à la fin de cette section.
 
 En plus de ces instructions, avant de commencer à écrire un plugin qu'il est préférable de chercher sur [les plugins][2] pour l'orientation.
 
@@ -134,6 +136,7 @@ Une fois que vous définissez JavaScript pour votre plugin, vous devez compléte
 *   iOS Plugins
 *   BlackBerry 10 Plugins
 *   Windows Phone Plugins
+*   Windows 8 Plugins
 
 La plateforme de paciarelli ne supporte pas les plugins.
 

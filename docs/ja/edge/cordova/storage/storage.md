@@ -28,11 +28,9 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 
  [2]: http://www.w3.org/TR/webstorage/
 
-**Windows Phone 7 気まぐれ**: ドット表記は*いない*利用可能な必ずを使用 `setItem` または `getItem` としてのストレージ オブジェクトから直接キーにアクセスするのではなく`window.localStorage.someKey`.
-
 ## WebSQL
 
-この API は、基になる web ビューで利用可能です。 [Web SQL データベースの仕様][3]では、SQL クエリを通じてより多くのフル機能を備えたデータベース テーブルにアクセスを提供しています。
+この API は、基になる web ビューで利用可能です。 [Web の SQL データベースの仕様][3]を利用してより多くのフル機能を備えたデータベース テーブル アクセス SQL クエリ。
 
  [3]: http://dev.w3.org/html5/webdatabase/
 
@@ -51,8 +49,9 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 
 次のプラットフォームでは、IndexedDB をサポートします。
 
-*   Windows Phone 8
 *   ブラックベリー 10
+*   Windows Phone 8
+*   Windows 8
 
 ## プラグイン ベースのオプション
 

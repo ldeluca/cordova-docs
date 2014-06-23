@@ -126,7 +126,7 @@ Insbesondere diese Muster müssen aktualisiert werden:
 
 ## Windows Phone Whitelisting
 
-Die Whitelist-Regeln für Windows Phone 7 und 8 befinden sich in der app `config.xml` Datei.
+Die Whitelist-Regeln für Windows Phone 8 befinden sich in der app `config.xml` Datei.
 
 ## Tizen Whitelisting
 

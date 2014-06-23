@@ -30,7 +30,7 @@ Aby zastąpić domyślne zachowanie przycisku wstecz, zarejestrować detektor zd
 *   Amazon ogień OS
 *   Android
 *   Jeżyna 10
-*   Windows Phone 7 i 8
+*   Windows Phone 8
 
 ## Szybki przykład
 

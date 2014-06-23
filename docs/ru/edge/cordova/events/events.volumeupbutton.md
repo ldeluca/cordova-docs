@@ -16,22 +16,22 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 
 # volumeupbutton
 
-Событие возникает, когда пользователь нажимает том вверх по кнопке.
+Событие возникает, когда пользователь нажимает кнопку повышения громкости.
 
     document.addEventListener("volumeupbutton", yourCallbackFunction, false);
     
 
 ## Подробная информация
 
-Если необходимо переопределить по умолчанию громкости поведение вы можете зарегистрировать прослушиватель событий для `volumeupbutton` событие.
+Если необходимо переопределить поведение по умолчанию кнопки увличения громкости вы можете зарегистрировать обработчик для события `volumeupbutton`.
 
-Приложения обычно должны использовать `document.addEventListener` прикрепить прослушиватель событий после `deviceready` пожаров события.
+Приложения обычно должны использовать `window.addEventListener` чтобы добавить обработчик события после того как произойдет событие `deviceready`.
 
 ## Поддерживаемые платформы
 
 *   BlackBerry 10
 
-## Быстрый пример
+## Краткий пример
 
     document.addEventListener("volumeupbutton", onVolumeUpKeyDown, false);
     

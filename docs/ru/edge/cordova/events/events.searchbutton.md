@@ -23,15 +23,15 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 
 ## Подробная информация
 
-Если необходимо переопределить поведение по умолчанию поиск кнопки на Android вы можете зарегистрировать прослушиватель событий для события «searchbutton».
+Если необходимо переопределить поведение по умолчанию кнопки поиск на Android вы можете зарегистрировать обработчик события для события «searchbutton».
 
-Приложения обычно должны использовать `document.addEventListener` прикрепить прослушиватель событий после `deviceready` пожаров события.
+Приложения обычно должны использовать `window.addEventListener` чтобы добавить обработчик события после того как произойдет событие `deviceready`.
 
 ## Поддерживаемые платформы
 
-*   Андроид
+*   Android
 
-## Быстрый пример
+## Краткий пример
 
     document.addEventListener("searchbutton", onSearchKeyDown, false);
     

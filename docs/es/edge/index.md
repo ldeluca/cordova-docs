@@ -36,7 +36,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
     </li>
     <li>
       <h2>
-        La interfaz de línea de comandos
+        La interfaz de linea de comandos
       </h2>
       
       <span>Crear, construir y desplegar desde la línea de comandos.</span>
@@ -141,7 +141,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
     </li>
     <li>
       <h2>
-        Plugin API
+        Plugin APIs
       </h2>
       
       <span>Descubra qué plugins Cordova están disponibles para usar en su proyecto.</span>

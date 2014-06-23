@@ -385,12 +385,12 @@ Aktualizacja tylko `www` katalogu:
 
 6.  Aktualizacja `www/plugins.xml` pliku. Dwie wtyczki zmienił ich etykiecie nazw usług. Zmienić stare wpisy do przechwytywania i kontaktu wtyczki od:
     
-        < nazwa pluginu = "Przechwytywania" value="org.apache.cordova.media.MediaCapture"/ >< plugin name = "Kontakt" value="org.apache.cordova.pim.Contact"/ >
+        < nazwa pluginu = "Przechwytywania" value="org.apache.cordova.media.MediaCapture"/ >< nazwa pluginu "Kontakt" value="org.apache.cordova.pim.Contact"/ = >
         
     
     Do:
     
-        < nazwa pluginu = "Przechwytywania" value="org.apache.cordova.capture.MediaCapture"/ >< plugin name = "Kontakty" value="org.apache.cordova.pim.Contact"/ >
+        < nazwa pluginu = "Przechwytywania" value="org.apache.cordova.capture.MediaCapture"/ >< nazwa pluginu "Kontakty" value="org.apache.cordova.pim.Contact"/ = >
         
 
 Aktualizacja katalogu sample (czyli aktualizacji używając narzędzia):

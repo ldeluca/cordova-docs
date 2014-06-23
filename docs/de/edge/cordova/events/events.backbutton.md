@@ -30,7 +30,7 @@ Um das zurück-Button Standardverhalten überschreiben, registriert einen Ereign
 *   Amazon Fire OS
 *   Android
 *   BlackBerry 10
-*   Windows Phone 7 und 8
+*   Windows Phone 8
 
 ## Kurzes Beispiel
 

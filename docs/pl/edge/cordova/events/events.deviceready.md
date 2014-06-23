@@ -38,7 +38,7 @@ Cordova składa się z dwóch baz kod: macierzystego i JavaScript. Podczas gdy �
 *   Jeżyna 10
 *   iOS
 *   Tizen
-*   Windows Phone 7 i 8
+*   Windows Phone 8
 *   Windows 8
 
 ## Szybki przykład

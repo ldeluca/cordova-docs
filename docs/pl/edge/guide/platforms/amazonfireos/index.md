@@ -100,17 +100,15 @@ Aby zmienić ścieżka środowisko naturalne w systemie Windows:
 
 ### Amazon WebView SDK
 
-Aby utworzyć Cordova aplikacji przy użyciu Amazon ogień OS platformy docelowej, będziesz musiał pobrać, rozpakować i zainstalować pliki obsługi Amazon WebView SDK. Ten krok trzeba tylko zrobić na swój pierwszy projekt Amazon ognia systemu operacyjnego, lub w przypadku uaktualniania Cordova.
+Aby utworzyć Cordova aplikacji przy użyciu Amazon ogień OS platformy docelowej, będziesz musiał pobrać, rozpakować i zainstalować pliki obsługi Amazon WebView SDK. Ten krok trzeba tylko zrobić na swój pierwszy projekt Amazon ogień OS.
 
 *   Pobrać Amazon WebView SDK [Amazon Developer Portal][1].
 
-*   Kopia `awv_interface.jar` z pobrać SDK do Cordova w katalogu roboczym:
+*   Kopia `awv_interface.jar` z pobrać SDK do Cordova w katalogu roboczym. Utwórz commonlibs(shown below) folder, jeśli nie istnieje:
     
-    **Mac/Linux:** `~/.cordova/lib/amazon-fireos/cordova/[cordova_release]/framework/libs/`
+    **Mac/Linux:** `~/.cordova/lib/commonlibs/`
     
-    **Windows:** `%USERPROFILE%\.cordova\lib\amazon-fireos\cordova\[cordova_release]\framework\libs`
-
-***Uwaga:*** Z powodu Cordova jest na żądanie instalacji procesu, `~/.cordova/lib/amazon-fireos` katalog nie zostanie utworzony, dopóki nie dodasz platformy do pierwszego projektu.
+    **Windows:** `%USERPROFILE%\.cordova\lib\commonlibs`
 
 ## Tworzenie nowego projektu dla Amazon ogień OS
 

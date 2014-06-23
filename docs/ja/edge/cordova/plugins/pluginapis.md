@@ -25,82 +25,87 @@
     
     > デバイスのカメラを使用して写真をキャプチャします。
 
-*   [連絡先][4]
+*   [コンソール][4]
+    
+    > Console.log() に追加機能を追加します。
+
+*   [連絡先][5]
     
     > デバイスの連絡先データベースで動作します。
 
-*   [デバイス][5]
+*   [デバイス][6]
     
     > デバイス固有の情報を収集します。
 
-*   [デバイスの動き （加速度）][6]
+*   [デバイスの動き （加速度）][7]
     
     > デバイスのモーション センサーをタップします。
 
-*   [デバイスの向き （コンパス）][7]
+*   [デバイスの向き （コンパス）][8]
     
     > デバイスが指している方向を取得します。
 
-*   [ダイアログ ボックス][8]
+*   [ダイアログ ボックス][9]
     
     > 視覚デバイス通知。
 
-*   [ファイル ・ システム][9]
+*   [ファイル ・ システム][10]
     
     > Java スクリプトの設定をネイティブのファイル システムにフックします。
 
-*   [ファイルの転送][10]
+*   [ファイルの転送][11]
     
     > Java スクリプトの設定をネイティブのファイル システムにフックします。
 
-*   [地理位置情報][11]
+*   [地理位置情報][12]
     
     > アプリケーションの場所を認識させます。
 
-*   [グローバリゼーション][12]
+*   [グローバリゼーション][13]
     
     > ロケールに固有のオブジェクトの表現を有効にします。
 
-*   [InAppBrowser][13]
+*   [InAppBrowser][14]
     
     > 別のアプリ内ブラウザー インスタンスで Url を起動します。
 
-*   [メディア][14]
+*   [メディア][15]
     
     > 記録し、オーディオ ファイルを再生します。
 
-*   [メディアをキャプチャします。][15]
+*   [メディアをキャプチャします。][16]
     
     > デバイスのメディア ・ キャプチャ ・ アプリケーションを使用してメディア ファイルをキャプチャします。
 
-*   [ネットワーク情報 (接続)][16]
+*   [ネットワーク情報 (接続)][17]
     
     > ネットワークの状態、および携帯電話のネットワーク情報をすばやく確認します。
 
-*   [スプラッシュ スクリーン][17]
+*   [スプラッシュ スクリーン][18]
     
     > アプリケーションのスプラッシュ スクリーンを非表示。
 
-*   [振動][18]
+*   [振動][19]
     
     > デバイスを振動する API です。
 
  [2]: https://github.com/apache/cordova-plugin-battery-status/blob/master/doc/index.md
  [3]: https://github.com/apache/cordova-plugin-camera/blob/master/doc/index.md
- [4]: https://github.com/apache/cordova-plugin-contacts/blob/master/doc/index.md
- [5]: https://github.com/apache/cordova-plugin-device/blob/master/doc/index.md
- [6]: https://github.com/apache/cordova-plugin-device-motion/blob/master/doc/index.md
- [7]: https://github.com/apache/cordova-plugin-device-orientation/blob/master/doc/index.md
- [8]: https://github.com/apache/cordova-plugin-dialogs/blob/master/doc/index.md
- [9]: https://github.com/apache/cordova-plugin-file/blob/master/doc/index.md
- [10]: https://github.com/apache/cordova-plugin-file-transfer/blob/master/doc/index.md
- [11]: https://github.com/apache/cordova-plugin-geolocation/blob/master/doc/index.md
- [12]: https://github.com/apache/cordova-plugin-globalization/blob/master/doc/index.md
- [13]: https://github.com/apache/cordova-plugin-inappbrowser/blob/master/doc/index.md
- [14]: https://github.com/apache/cordova-plugin-media/blob/master/doc/index.md
- [15]: https://github.com/apache/cordova-plugin-media-capture/blob/master/doc/index.md
- [16]: https://github.com/apache/cordova-plugin-network-information/blob/master/doc/index.md
- [17]: https://github.com/apache/cordova-plugin-splashscreen/blob/master/doc/index.md
- [18]: https://github.com/apache/cordova-plugin-vibration/blob/master/doc/index.md
+ [4]: https://github.com/apache/cordova-plugin-console/blob/master/doc/index.md
+ [5]: https://github.com/apache/cordova-plugin-contacts/blob/master/doc/index.md
+ [6]: https://github.com/apache/cordova-plugin-device/blob/master/doc/index.md
+ [7]: https://github.com/apache/cordova-plugin-device-motion/blob/master/doc/index.md
+ [8]: https://github.com/apache/cordova-plugin-device-orientation/blob/master/doc/index.md
+ [9]: https://github.com/apache/cordova-plugin-dialogs/blob/master/doc/index.md
+ [10]: https://github.com/apache/cordova-plugin-file/blob/master/doc/index.md
+ [11]: https://github.com/apache/cordova-plugin-file-transfer/blob/master/doc/index.md
+ [12]: https://github.com/apache/cordova-plugin-geolocation/blob/master/doc/index.md
+ [13]: https://github.com/apache/cordova-plugin-globalization/blob/master/doc/index.md
+ [14]: https://github.com/apache/cordova-plugin-inappbrowser/blob/master/doc/index.md
+ [15]: https://github.com/apache/cordova-plugin-media/blob/master/doc/index.md
+ [16]: https://github.com/apache/cordova-plugin-media-capture/blob/master/doc/index.md
+ [17]: https://github.com/apache/cordova-plugin-network-information/blob/master/doc/index.md
+ [18]: https://github.com/apache/cordova-plugin-splashscreen/blob/master/doc/index.md
+ [19]: https://github.com/apache/cordova-plugin-vibration/blob/master/doc/index.md
 
 これらのプラグインのドキュメントの翻訳を英語以外の言語は、コルドバのドキュメントの古いバージョンを見て発見ことができます。非常に右上のこのサイトでバージョンを切り替えるには、ドロップ ダウン メニューを使用します。

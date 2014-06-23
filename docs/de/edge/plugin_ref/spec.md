@@ -73,8 +73,8 @@ Die `<engine>` Markierungen hat auch Standardunterstützung für alle die Hauptp
     </engines>
     
 
-Hier ist eine Liste der Standard-Suchmaschinen, die die "<engine>'-Tag unterstützt: * 'Cordoba' * 'Cordova-Plugman' * 'Cordova-Amazon-Fireos' * 'Cordova-Android' * 'Cordova-Ios' * 'Cordova-blackberry10' * 'Cordova-wp7' * 'Cordova-wp8' * 'Cordova-windows8'  
-* ' Android-Sdk' / / liefert die höchste Android-api-Ebene installiert * 'Apfel-Xcode' / / liefert die Xcode-Version * 'Apple-Ios' / / liefert die höchste installierte iOS-Version * 'Apple-Osx' / / liefert die OSX Version * 'Blackberry-Ndk' / / liefert die systemeigenen Blackberry SDK Version
+Hier ist eine Liste der Standard-Suchmaschinen, die die "<engine>"-Tag unterstützt: * 'Cordoba' * 'Cordova-Plugman' * 'Cordova-Amazon-Fireos' * 'Cordova-Android' * 'Cordova-Ios' * 'Cordova-blackberry10' * 'Cordova-wp8' * 'Cordova-windows8'  
+* "Android-Sdk' / / liefert die höchste Android-api-Ebene installiert * 'Apfel-Xcode' / / liefert die Xcode-Version * 'Apple-Ios' / / liefert die höchste installierte iOS-Version * 'Apple-Osx' / / liefert die OSX Version * 'Blackberry-Ndk' / / liefert die systemeigenen Blackberry SDK Version
 
 Benutzerdefinierte Apache Cordova-basierten Frameworks sollte aufgeführt sein, unter dem Motor-Tag angeben, etwa so:
 
@@ -241,8 +241,8 @@ Plattformnamen sollten Kleinbuchstaben sein. Plattformnamen, so willkürlich gew
 *   Android
 *   blackberry10
 *   Ios
-*   WP7
 *   WP8
+*   Windows8
 
 ## *Quelldatei* Element
 
@@ -372,6 +372,7 @@ Beispiele:
     <framework src="libsqlite3.dylib" />
     <framework src="social.framework" weak="true" />
     <framework src="relative/path/to/my.framework" custom="true" />
+    <framework src="path/to/project/LibProj.csproj" custom="true" type="projectReference"/>
     
 
 Das `src` -Attribut identifiziert den Rahmen, welche Plugman versucht die Cordova-Projekt in der richtigen Weise für eine bestimmte Plattform hinzu.
@@ -379,6 +380,8 @@ Das `src` -Attribut identifiziert den Rahmen, welche Plugman versucht die Cordov
 Der optionale `weak` -Attribut ist ein boolescher Wert, der angibt, ob das Framework schwach verbunden sein sollte. Der Standardwert ist`false`.
 
 Der optionale `custom` -Attribut ist ein boolescher Wert, der angibt, ob im Rahmen einer ist, als Teil Ihrer Plugin-Dateien enthalten ist (so ist es kein System-Rahmen). Der Standardwert ist`false`.
+
+Das optionale `type` Attribut ist eine Zeichenfolge, die den Typ des Rahmens hinzu. Derzeit nur `projectReference` wird und nur auf Windows 8 unterstützt. Mit `custom='true'` und `type='projectReference'` fügt einen Verweis auf das Projekt, das die Kompilierung gutgeschrieben + Schritte des Projektes Cordova zu verknüpfen. Dies ist im Grunde die einzige Möglichkeit derzeit ein 'custom' Rahmen mehrere Architekturen angesprochen werden kann, da sie explizit als eine Abhängigkeit von der verweisenden Cordova-Anwendung erstellt werden.
 
 ## *Info* Element
 

@@ -126,7 +126,7 @@ IOS 플랫폼에서 와일드 카드는 [W3C 위젯 액세스][1] 사양 보다 
 
 ## Windows Phone 수단이
 
-애플 리 케이 션의에서 발견 되는 Windows Phone 7과 8에 대 한 허용 규칙 `config.xml` 파일.
+애플 리 케이 션의에서 발견 되는 Windows Phone 8에 대 한 허용 규칙 `config.xml` 파일.
 
 ## Tizen 화이트
 

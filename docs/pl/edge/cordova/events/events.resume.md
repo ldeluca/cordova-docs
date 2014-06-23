@@ -33,7 +33,7 @@ Aplikacje zwykle należy użyć `document.addEventListener` Aby dołączyć słu
 *   Android
 *   Jeżyna 10
 *   iOS
-*   Windows Phone 7 i 8
+*   Windows Phone 8
 *   Windows 8
 
 ## Szybki przykład

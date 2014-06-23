@@ -14,7 +14,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
    under the License.
 ---
 
-# Événements
+# Eventos
 
 > Eventos de ciclo de vida de Cordova.
 

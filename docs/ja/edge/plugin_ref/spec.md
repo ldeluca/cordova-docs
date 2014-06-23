@@ -73,7 +73,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
     </engines>
     
 
-ここでは、エンジンの既定の一覧を '<engine>'タグをサポートしています： * 'コルドバ' *' コルドバ-plugman' * 'コルドバ-アマゾン-fireos' *' コルドバ人造人間 '*' コルドバ ios' * 'コルドバ-blackberry10' *' コルドバ wp7' * 'コルドバ wp8' *' コルドバ-windows8'  
+ここでは、エンジンの既定の一覧を '<engine>'タグをサポートしています： * 'コルドバ' *' コルドバ-plugman' * 'コルドバ-アマゾン-fireos' *' コルドバ人造人間 '*' コルドバ ios' * 'コルドバ-blackberry10' *' コルドバ wp8' * ' コルドバ-windows8'  
 * 'android sdk'//インストール レベル最高の Android の api を返します *' アップル xcode'//xcode バージョンを返します。 * 'アップル ios'//インストールされて最高の iOS のバージョンを返します。 *' アップルの osx'//OSX のバージョンを返します。 * ' ブラックベリー ndk'//ネイティブなブラックベリー SDK のバージョンを返します。
 
 カスタム Apache コルドバ ベース フレームワークはエンジン タグの下に表示する必要がありますを指定しましょう。
@@ -241,8 +241,8 @@ plugman は、そのターゲット プロジェクトがエンジンの制約�
 *   アンドロイド
 *   blackberry10
 *   ios
-*   wp7
 *   wp8
+*   windows8
 
 ## *ソース ファイル*要素
 
@@ -372,6 +372,7 @@ Android の例:
     <framework src="libsqlite3.dylib" />
     <framework src="social.framework" weak="true" />
     <framework src="relative/path/to/my.framework" custom="true" />
+    <framework src="path/to/project/LibProj.csproj" custom="true" type="projectReference"/>
     
 
 `src`属性を plugman 与えられたプラットフォームの正しいファッションでのコルドバ プロジェクトに追加しようとしています。 フレームワークを識別します。
@@ -379,6 +380,8 @@ Android の例:
 省略可能な `weak` 属性は、フレームワークが弱いリンクする必要があるかどうかを示すブール値。既定値は`false`.
 
 省略可能な `custom` 属性は、フレームワークがプラグイン ファイルの一部として含まれているかどうかを示すブール値 (従ってそれはシステム フレームワーク）。 既定値は`false`.
+
+省略可能な `type` に追加するフレームワークの型を示す文字列属性です。 現在のところ `projectReference` であり、サポートされている Windows 8 上でのみ。 使用して `custom='true'` と `type='projectReference'` 、プロジェクトのコンパイルに追加されます + コルドバ プロジェクトの手順のリンクへの参照を追加します。 これは本質的に唯一の方法は現在 'カスタム' フレームワークが対象にする複数のアーキテクチャ参照コルドバ アプリケーションである依存関係として構築されている明示的にです。
 
 ## *情報*要素
 

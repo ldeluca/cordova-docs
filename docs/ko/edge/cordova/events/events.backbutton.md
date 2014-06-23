@@ -30,7 +30,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 *   아마존 화재 운영 체제
 *   안 드 로이드
 *   블랙베리 10
-*   Windows Phone 7과 8
+*   Windows Phone 8
 
 ## 빠른 예제
 

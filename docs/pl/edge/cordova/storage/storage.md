@@ -28,8 +28,6 @@ Znany również jako *Sieć pamięci masowej*, *zwykłe magazynowanie*, lub jego
 
  [2]: http://www.w3.org/TR/webstorage/
 
-**Windows Phone 7 dziwactwo**: kropkowego jest *nie* dostępny, więc należy użyć `setItem` lub `getItem` zamiast dostęp klucze bezpośrednio z obiektu pamięci masowej, jak w`window.localStorage.someKey`.
-
 ## WebSQL
 
 Ten interfejs API jest dostępny w podstawowej widoku sieci Web. [Web SQL bazy danych specyfikacji][3] oferuje więcej tabel bazy danych w pełni funkcjonalny dostęp za pomocą zapytań SQL.
@@ -51,8 +49,9 @@ Ten interfejs API jest dostępny w podstawowej widoku sieci Web. [Indeksowane DB
 
 Następujące platformy wsparcia IndexedDB:
 
-*   Windows Phone 8
 *   Jeżyna 10
+*   Windows Phone 8
+*   Windows 8
 
 ## Opcje opartego na plugin
 

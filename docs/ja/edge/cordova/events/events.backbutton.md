@@ -30,7 +30,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 *   アマゾン火 OS
 *   アンドロイド
 *   ブラックベリー 10
-*   Windows Phone 7 と 8
+*   Windows Phone 8
 
 ## 簡単な例
 

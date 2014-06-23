@@ -126,7 +126,7 @@ W szczególności te wzorce muszą być aktualizowane:
 
 ## Windows Phone Whitelisting
 
-Dla Windows Phone 7 i 8 zasad białą znajdują się w aplikacji `config.xml` pliku.
+Zasady białą Windows Phone 8 znajdują się w aplikacji `config.xml` pliku.
 
 ## Tizen Whitelisting
 

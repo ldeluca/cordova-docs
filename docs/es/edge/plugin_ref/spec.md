@@ -73,7 +73,7 @@ El `<engine>` etiquetas también cuenta con soporte por defecto para todas las p
     </engines>
     
 
-Aquí está una lista de la cesación de pagos que motores del '<engine>' soporta la etiqueta: * 'cordova' * 'cordova-plugman' * 'cordova-Amazonas-fireos' * 'cordova-android' * 'cordova-ios' * 'cordova-blackberry10' * 'cordova-wp7' * 'cordova-wp8' * 'cordova-windows8'  
+Aquí está una lista de la cesación de pagos que motores del '<engine>' las ayudas de la etiqueta: * 'cordova' * 'cordova-plugman' * 'cordova-Amazonas-fireos' * 'cordova-android' * 'cordova-ios' * 'cordova-blackberry10' * 'cordova-wp8' * 'cordova-windows8'  
 * ' android-sdk' / / devuelve la api de Android más alto nivel instalado * 'apple-xcode' / / devuelve la versión de xcode * 'ios de apple' / / devuelve la versión de iOS más alta instalada * 'apple-osx' / / devuelve la versión OSX * 'blackberry-ndk' / / devuelve la versión SDK nativo blackberry
 
 Especificar Marcos personalizados basados en Apache Cordova deben aparecer bajo la etiqueta de motor así:
@@ -241,8 +241,8 @@ Nombres de la plataforma deben estar en minúsculas. Nombres de plataforma, como
 *   Android
 *   blackberry10
 *   Ios
-*   WP7
 *   WP8
+*   windows8
 
 ## *archivo de código fuente* Elemento
 
@@ -372,6 +372,7 @@ Ejemplos:
     <framework src="libsqlite3.dylib" />
     <framework src="social.framework" weak="true" />
     <framework src="relative/path/to/my.framework" custom="true" />
+    <framework src="path/to/project/LibProj.csproj" custom="true" type="projectReference"/>
     
 
 El `src` atributo identifica el marco, que plugman intenta agregar al proyecto de Cordova, de la manera correcta para una determinada plataforma.
@@ -379,6 +380,8 @@ El `src` atributo identifica el marco, que plugman intenta agregar al proyecto d
 Opcional `weak` atributo es un valor booleano que indica si el marco debe ser vinculado débilmente. El valor predeterminado es`false`.
 
 Opcional `custom` atributo es un valor booleano que indica si el marco es que se incluye como parte de los archivos del plugin (por lo tanto no es un marco de sistema). El valor predeterminado es`false`.
+
+Opcional `type` atributo es una cadena que indica el tipo de marco para agregar. Actualmente, sólo `projectReference` es compatible y sólo en Windows 8. Usando `custom='true'` y `type='projectReference'` se agregue una referencia al proyecto que se agregarán a la compilación + enlace pasos del proyecto cordova. Esencialmente es la única forma actualmente que un marco 'custom' puede hacer objetivo a múltiples arquitecturas como se construyen explícitamente como una dependencia por la aplicación de Córdoba hace referencia a.
 
 ## *info* Elemento
 

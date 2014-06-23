@@ -14,7 +14,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
    under the License.
 ---
 
-# Guía Whitelist
+# Guía de lista blanca
 
 Listas blancas de dominio es un modelo de seguridad que controla el acceso a dominios externos sobre los cuales usted aplicación no tiene ningún control. Directiva de seguridad predeterminada de Cordova permite acceder a cualquier sitio. Antes de su aplicación a la producción, debe formular una lista blanca y permitir el acceso a la red específica dominios y subdominios.
 
@@ -126,7 +126,7 @@ Específicamente, estos patrones necesitan ser actualizados:
 
 ## Lista blanca de Windows Phone
 
-Las reglas de listas blancas para Windows Phone 7 y 8 se encuentran en la aplicación de `config.xml` archivo.
+Las reglas de listas blancas para Windows Phone 8 se encuentran en la aplicación de `config.xml` archivo.
 
 ## Las listas blancas Tizen
 

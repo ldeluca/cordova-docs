@@ -73,7 +73,7 @@ Może również określić elementy silnika dopasowania rozmyte, aby uniknąć p
     </engines>
     
 
-Oto lista domyślnie wyszukiwarki, że "<engine>"tag obsługuje: * 'cordova' * 'cordova-plugman' * 'cordova Amazonka fireos' \*"cordova-android"\*"cordova-ios"* 'cordova-blackberry10' \*"cordova-wp7"\* 'cordova-wp8' * 'cordova-windows8'  
+Oto lista domyślnie wyszukiwarki, że "<engine>"tag obsługuje: * 'cordova' * 'cordova-plugman' * 'cordova Amazonka fireos' \*"cordova-android"\*"cordova-ios"* 'cordova-blackberry10' * 'cordova-wp8' * 'cordova-windows8'  
 * "android sdk' / / zwraca najwyższy api Android poziom zainstalowane * 'jabłko xcode' / / zwraca wersję xcode *"apple ios"/ / zwraca najwyższej wersji iOS instalowane *"apple osx"/ / zwraca informacje o wersji OSX *"blackberry-ndk"/ / zwraca wersji macierzysta blackberry SDK
 
 Określanie niestandardowych opartych na Apache Cordova ram powinna być wymieniona w tagu silnik tak:
@@ -241,8 +241,8 @@ Platforma nazwy powinny być pisane małymi literami. Platforma nazwy, jak arbit
 *   Android
 *   blackberry10
 *   iOS
-*   WP7
 *   wp8
+*   windows8
 
 ## *plik źródłowy* Elementu
 
@@ -372,6 +372,7 @@ Przykłady:
     <framework src="libsqlite3.dylib" />
     <framework src="social.framework" weak="true" />
     <framework src="relative/path/to/my.framework" custom="true" />
+    <framework src="path/to/project/LibProj.csproj" custom="true" type="projectReference"/>
     
 
 `src`Atrybut określa ramy, w które plugman próbuje dodać do projektu Cordova, w sposób prawidłowy dla danej platformy.
@@ -379,6 +380,8 @@ Przykłady:
 Opcjonalny `weak` atrybut jest wartością logiczną wskazującą, czy ramy powinny być słabo powiązane. Wartością domyślną jest`false`.
 
 Opcjonalny `custom` atrybut jest wartością logiczną wskazującą, czy RAM jest jeden, który jest częścią plików plugin (tak, to nie jest ramy systemu). Wartością domyślną jest`false`.
+
+Opcjonalny `type` atrybut jest ciągiem wskazującym typ struktury, aby dodać. Obecnie tylko `projectReference` jest obsługiwany i tylko na Windows 8. Za pomocą `custom='true'` i `type='projectReference'` będzie dodać odwołanie do projektu, który zostanie dodany do kompilacji + link etapy projektu cordova. Zasadniczo jest to tylko sposób obecnie że ramy 'niestandardowe' można kierować wielu architektur, jak są one wyraźnie zbudowane jako zależność przez aplikację cordova odwołujący się.
 
 ## *informacji* Elementu
 
