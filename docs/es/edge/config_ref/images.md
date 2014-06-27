@@ -25,7 +25,7 @@ Cuando trabajes en el CLI puedes definir los iconos de la app haciendo uso del e
         <icon src="res/ios/icon.png" platform="ios" width="57" height="57" density="mdpi" />
     
 
-src: especifica la ubicación del archivo de imagen, en relación con el directorio de www (requerido)
+Fuente: (requerido) especifica la ubicación del archivo de imagen, en relación a su directorio de proyecto
 
 platform: plataforma de destino (opcional)
 

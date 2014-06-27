@@ -126,7 +126,7 @@ In particolare, questi modelli devono essere aggiornati:
 
 ## Windows Phone Whitelisting
 
-Le regole di whitelisting per Windows Phone 7 e 8 si trovano nell'app `config.xml` file.
+Le regole di whitelisting per Windows Phone 8 si trovano nell'app `config.xml` file.
 
 ## Tizen Whitelisting
 

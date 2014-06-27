@@ -38,7 +38,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 *   ブラックベリー 10
 *   iOS
 *   Tizen
-*   Windows Phone 7 と 8
+*   Windows Phone 8
 *   Windows 8
 
 ## 簡単な例

@@ -34,10 +34,10 @@ Für Projekte, die mit Cordova CLI erstellt wurden:
 
 Für Projekte, die nicht mit der Cordova CLI erstellt ausgeführt:
 
-        bin/update <project_path>
+        Aktualisieren Sie bin/< Project_path >
     
 
-**Warnung:** Ab Android 4.4, erstellen eine Datei-input-Element mit Typ = "Datei" wird nicht im Dialog Datei Picker. Dies ist eine Regression mit Chrom auf Android und das Problem reproduzierbar in der Standalone-Chrome-Browser auf Android (siehe http://code.google.com/p/android/issues/detail?id=62220) die empfohlene Problemumgehung besteht darin die FileTransfer und Datei-Plugins für Android 4.4 verwenden. Sie können für ein OnClick-Ereignis aus der Eingabetyp hören = "file" und dann pop-up eine Dateiauswahl UI. Um die Formulardaten mit dem Upload zu binden, können Sie JavaScript Formularwerte FileTransfer macht die mehrteilige POST-Anforderung an. Dieser Fehler existiert immer noch seit Android 4.4.2
+**Warnung:** Auf Android 4.4 - Android 4.4.3, Erstellen einer Datei input-Element mit Type = "File" wird nicht im Dialog Datei Picker. Dies ist eine Regression mit Chrom auf Android und das Problem reproduzierbar in der Standalone-Chrome-Browser auf Android (siehe http://code.google.com/p/android/issues/detail?id=62220) die empfohlene Problemumgehung besteht darin die FileTransfer und Datei-Plugins für Android 4.4 verwenden. Sie können für ein OnClick-Ereignis aus der Eingabetyp hören = "file" und dann pop-up eine Dateiauswahl UI. Um die Formulardaten mit dem Upload zu binden, können Sie JavaScript Formularwerte FileTransfer macht die mehrteilige POST-Anforderung an.
 
 ## Upgrade von 3.0.0 auf 3.1.0
 

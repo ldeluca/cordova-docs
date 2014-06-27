@@ -42,7 +42,7 @@ Jede *Platform Guide* unten aufgeführten erfahren Sie, was Sie brauchen, wissen
 
 *   Handbuch für die Plattform von BlackBerry 10
 *   BlackBerry 10 Shell Tool Guide
-*   BlackBerry Configuration
+*   BlackBerry 10 Konfiguration
 *   BlackBerry 10 Plugins
 *   BlackBerry 10-Befehlszeilentools
 *   Aktualisieren der BlackBerry 10

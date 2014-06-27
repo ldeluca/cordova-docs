@@ -25,7 +25,7 @@ Quand travaillant dans la CLI, vous pouvez définir des app icônes via `<icon>`
         <icon src="res/ios/icon.png" platform="ios" width="57" height="57" density="mdpi" />
     
 
-SRC: (obligatoire) spécifie l'emplacement du fichier image, par rapport à votre répertoire www
+SRC: (obligatoire) spécifie l'emplacement du fichier image, par rapport à votre répertoire de projet
 
 plateforme : plateforme cible (facultatif)
 

@@ -42,7 +42,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 
 *   블랙베리 10 플랫폼 가이드
 *   블랙베리 10 셸 도구 가이드
-*   블랙베리 구성
+*   블랙베리 10 구성
 *   블랙베리 10 플러그인
 *   블랙베리 10 명령줄 도구
 *   블랙베리 10 업그레이드

@@ -100,17 +100,15 @@ Para modificar el entorno PATH en Windows:
 
 ### Amazon WebView SDK
 
-Para crear aplicaciones de Córdoba con el objetivo de la plataforma de Amazon fuego OS, usted necesitará descargar, descomprimir e instalar los archivos de soporte de Amazon WebView SDK. Este paso sólo tendrá que hacerse para su primer proyecto Amazonas fuego OS, o si actualizas Cordova.
+Para crear aplicaciones de Córdoba con el objetivo de la plataforma de Amazon fuego OS, usted necesitará descargar, descomprimir e instalar los archivos de soporte de Amazon WebView SDK. Este paso sólo tendrá que ser hecho por tu primer proyecto Amazonas fuego OS.
 
 *   Descargue el SDK de WebView Amazonas del [Amazonas Developer Portal][1].
 
-*   Copia `awv_interface.jar` del SDK descargado al directorio de trabajo de Cordova:
+*   Copia `awv_interface.jar` del SDK descargado al directorio de trabajo de Cordova. Crear carpeta commonlibs(shown below) si no existe:
     
-    **Mac/Linux:** `~/.cordova/lib/amazon-fireos/cordova/[cordova_release]/framework/libs/`
+    **Mac/Linux:** `~/.cordova/lib/commonlibs/`
     
-    **Windows:** `%USERPROFILE%\.cordova\lib\amazon-fireos\cordova\[cordova_release]\framework\libs`
-
-***Nota:*** Debido a la demanda de Cordova instalar el proceso, el `~/.cordova/lib/amazon-fireos` Directorio de plataforma no se creará hasta la plataforma agrega a tu primer proyecto.
+    **Windows:** `%USERPROFILE%\.cordova\lib\commonlibs`
 
 ## Crear nuevo proyecto para el Amazonas fuego OS
 

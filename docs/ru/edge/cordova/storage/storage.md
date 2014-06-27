@@ -28,11 +28,9 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 
  [2]: http://www.w3.org/TR/webstorage/
 
-**Особенности Windows Phone 7**: точечная нотация является *не* доступной, так что не забудьте использовать `setItem` или `getItem` , вместо того чтобы получать доступ к значения, непосредственно используя свойства объекта хранилища, как например `window.localStorage.someKey`.
-
 ## WebSQL
 
-Этот API-интерфейс доступен в нижеуказанных реализациях WebView. [Спецификация базы данных Web SQL][3] предлагает более полнофункциональные таблицы базы данных с доступом к ним через SQL-запросы.
+Этот API-интерфейс доступен в базовом WebView. [Спецификация Web SQL базы данных][3] предлагает более полнофункциональные базы данных таблиц доступны через SQL-запросы.
 
  [3]: http://dev.w3.org/html5/webdatabase/
 
@@ -45,18 +43,19 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 
 ## IndexedDB
 
-Этот API-интерфейс доступен в нижеуказанных WebView. [Indexed DB][4] предоставляет больше возможностей, чем LocalStorage, но меньше, чем WebSQL.
+Этот API-интерфейс доступен в базовом WebView. [Индексированные DB][4] предлагает больше возможностей, чем LocalStorage, но меньше, чем WebSQL.
 
  [4]: http://www.w3.org/TR/IndexedDB/
 
 Следующие платформы поддерживают IndexedDB:
 
-*   Windows Phone 8
 *   BlackBerry 10
+*   Windows Phone 8
+*   Windows 8
 
 ## Варианты на основе плагинов
 
-В дополнение к API хранилищ перечисленных выше, [File API][5] позволяет вам кешировать данные в локальной файловой системе. Другие [плагины Cordova][6] предоставляют схожие варианты хранения данных.
+Помимо хранения API-интерфейсы, перечисленные выше, [Файл API][5] позволяет кэшировать данные на локальной файловой системе. Другие [плагины Cordova][6] предоставляют аналогичные возможности хранения.
 
  [5]: https://github.com/apache/cordova-plugin-file/blob/master/doc/index.md
  [6]: http://plugins.cordova.io/

@@ -42,7 +42,7 @@ Cada *Plataforma guía* a continuación te dice lo que necesitas saber para conf
 
 *   Guía de la plataforma BlackBerry 10
 *   BlackBerry 10 Guía de herramientas de Shell
-*   Configuración de blackBerry
+*   Configuración de blackBerry 10
 *   BlackBerry 10 Plugins
 *   BlackBerry 10 herramientas de línea de comandos
 *   Actualizar BlackBerry 10

@@ -25,7 +25,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
         <icon src="res/ios/icon.png" platform="ios" width="57" height="57" density="mdpi" />
     
 
-src: (必須) www ディレクトリを基準にして、イメージ ファイルの場所を指定します。
+src: (必須)、プロジェクト ディレクトリを基準にして、イメージ ファイルの場所を指定します。
 
 プラットフォーム: (省略可能) ターゲット プラットフォーム
 

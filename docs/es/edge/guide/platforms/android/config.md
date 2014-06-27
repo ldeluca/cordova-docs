@@ -69,3 +69,7 @@ El archivo `config.xml` controla la configuración básica de una app que se apl
         
 
 *   `SetFullscreen`(por defecto es booleano, `false` ): igual que el `Fullscreen` parámetro en la configuración global de este archivo xml. Este elemento específico de Android está obsoleta a favor de la global `Fullscreen` elemento y se quitará en una versión futura.
+
+*   `AndroidLaunchMode`(string, el valor predeterminado de `singleTop` ): establece la actividad `android:launchMode` atributo. Esto cambia lo que pasa cuando la aplicación se inicia desde el icono de la aplicación o intención y está ya en ejecución. Los valores válidos son `standard` , `singleTop` , `singleTask` ,`singleInstance`.
+    
+        <preference name="AndroidLaunchMode" value="singleTop"/>

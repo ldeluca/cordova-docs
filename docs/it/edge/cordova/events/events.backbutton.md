@@ -30,7 +30,7 @@ Per ignorare il comportamento predefinito tasto back, registrare un listener di 
 *   Amazon fuoco OS
 *   Android
 *   BlackBerry 10
-*   Windows Phone 7 e 8
+*   Windows Phone 8
 
 ## Esempio rapido
 

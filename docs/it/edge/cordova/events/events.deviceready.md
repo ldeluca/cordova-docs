@@ -38,7 +38,7 @@ Il `deviceready` evento si comporta in modo un po' diverso dagli altri. Qualsias
 *   BlackBerry 10
 *   iOS
 *   Tizen
-*   Windows Phone 7 e 8
+*   Windows Phone 8
 *   Windows 8
 
 ## Esempio rapido

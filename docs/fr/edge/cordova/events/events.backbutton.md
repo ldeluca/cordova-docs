@@ -30,7 +30,7 @@ Afin de modifier le comportement par défaut du bouton retour, attachez un écou
 *   Amazon Fire OS
 *   Android
 *   BlackBerry 10
-*   Windows Phone 7 et 8
+*   Windows Phone 8
 
 ## Exemple court
 

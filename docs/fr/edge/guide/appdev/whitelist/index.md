@@ -126,7 +126,7 @@ Plus précisément, ces motifs doivent être actualisés :
 
 ## Windows Phone liste blanche
 
-Les règles de liste blanche pour Windows Phone 7 et 8 se trouvent dans l'application `config.xml` fichier.
+Les règles de liste blanche pour Windows Phone 8 se trouvent dans l'application `config.xml` fichier.
 
 ## Liste blanche paciarelli
 

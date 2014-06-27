@@ -28,8 +28,6 @@ Aussi connu comme *stockage web*, *stockage simple*, ou par son interface de rec
 
  [2]: http://www.w3.org/TR/webstorage/
 
-**Windows Phone 7 bizarrerie**: notation par points est *pas* disponible, alors n'oubliez pas d'utiliser `setItem` ou `getItem` plutôt que d'accéder aux clés directement à partir de l'objet de stockage, comme dans`window.localStorage.someKey`.
-
 ## WebSQL
 
 Cette API est disponible dans le mode Web sous-jacent. La [Spécification de base de données SQL Web][3] propose plusieurs tables de base de données complète accessible via des requêtes SQL.
@@ -51,8 +49,9 @@ Cette API est disponible dans le mode Web sous-jacent. [Indexed DB][4] offre plu
 
 Les plates-formes suivantes prennent en charge IndexedDB :
 
-*   Windows Phone 8
 *   BlackBerry 10
+*   Windows Phone 8
+*   Windows 8
 
 ## Options fondées sur le plugin
 

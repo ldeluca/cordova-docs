@@ -30,7 +30,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 *   Amazon Fire OS
 *   Android
 *   BlackBerry 10
-*   Windows Phone 7 и 8
+*   Windows Phone 8
 
 ## Краткий пример
 

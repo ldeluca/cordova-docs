@@ -28,7 +28,7 @@ Per i progetti creati con il cordova CLI:
 
 Per i progetti non creati con la CLI di cordova, eseguire:
 
-        bin/update <project_path>
+        bin/aggiornamento < project_path >
     
 
 ## Aggiornamento a 3.1.0 da 3.0.0

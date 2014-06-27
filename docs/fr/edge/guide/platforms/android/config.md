@@ -69,3 +69,7 @@ Le fichier `config.xml` supervise les paramètres de base s'appliquant à l'appl
         
 
 *   `SetFullscreen`(boolean, la valeur par défaut `false` ): identique à la `Fullscreen` paramètre dans la configuration globale de ce fichier xml. Cet élément spécifiques Android est désapprouvé en faveur de la global `Fullscreen` élément et sera supprimée dans une future version.
+
+*   `AndroidLaunchMode`(string, la valeur par défaut `singleTop` ): définit l'activité `android:launchMode` attribut. Cela change de ce qui arrive lorsque l'application est lancée depuis l'icône de l'application ou l'intention et est déjà en cours d'exécution. Les valeurs valides sont `standard` , `singleTop` , `singleTask` ,`singleInstance`.
+    
+        <preference name="AndroidLaunchMode" value="singleTop"/>

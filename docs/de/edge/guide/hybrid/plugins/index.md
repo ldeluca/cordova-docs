@@ -20,7 +20,9 @@ Ein *Plugin* ist ein Paket von eingefügten Code, der die Cordova Webview ermög
 
  [1]: http://plugins.cordova.io
 
-Plugins umfassen eine einzelne JavaScript-Schnittstelle zusammen mit entsprechenden native Code-Bibliotheken für jede unterstützte Plattform. Dieser Abschnitt schrittweise einen einfachen *Echo* -Plugin, die übergibt eine Zeichenfolge von JavaScript zum einheitlichen Plattform und zurück, die Sie als Modell verwenden können, um viel komplexere Features zu erstellen. Dieser Abschnitt beschreibt die grundlegenden Plugin-Struktur und die nach außen gerichtete JavaScript-Schnittstelle. Jede entsprechende Benutzeroberfläche finden Sie in der Liste am Ende dieses Abschnitts.
+Plugins umfassen eine einzelne JavaScript-Schnittstelle zusammen mit entsprechenden native Code-Bibliotheken für jede unterstützte Plattform. Dies blendet im Wesentlichen die verschiedenen Implementierungen von systemeigenem Code hinter eine gemeinsame JavaScript-Schnittstelle.
+
+Dieser Abschnitt schrittweise einen einfachen *Echo* -Plugin, die übergibt eine Zeichenfolge von JavaScript zum einheitlichen Plattform und zurück, die Sie als Modell verwenden können, um viel komplexere Features zu erstellen. Dieser Abschnitt beschreibt die grundlegenden Plugin-Struktur und die nach außen gerichtete JavaScript-Schnittstelle. Jede entsprechende Benutzeroberfläche finden Sie in der Liste am Ende dieses Abschnitts.
 
 Zusätzlich zu diesen Anweisungen, wenn bereiten auf ein Plugin zu schreiben, ist es am besten über die [vorhandenen Plugins][2] , Anleitungen zu schauen.
 
@@ -134,6 +136,7 @@ Wenn Sie JavaScript für Ihr Plugin definieren, müssen Sie es mit mindestens ei
 *   iOS Plugins
 *   BlackBerry 10 Plugins
 *   Windows Phone Plugins
+*   Windows 8-Plugins
 
 Tizen-Plattform unterstützt keine Plugins.
 

@@ -30,7 +30,7 @@ Para reemplazar el comportamiento predeterminado de botón atrás, registrar un 
 *   Amazon fuego OS
 *   Android
 *   BlackBerry 10
-*   Windows Phone 7 y 8
+*   Windows Phone 8
 
 ## Ejemplo rápido
 

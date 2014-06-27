@@ -42,7 +42,7 @@ Chaque *Plateforme Guide* ci-dessous vous indique ce que vous devez savoir pour 
 
 *   Guide de la plate-forme blackBerry 10
 *   BlackBerry 10 Shell Tool Guide
-*   Configuration de blackBerry
+*   Configuration de blackBerry 10
 *   BlackBerry 10 Plugins
 *   BlackBerry 10 outils de ligne de commande
 *   Mise à jour de BlackBerry 10

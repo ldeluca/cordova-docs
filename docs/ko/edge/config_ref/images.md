@@ -25,7 +25,7 @@ CLI에서 근무를 통해 애플 리 케이 션 아이콘을 정의할 수 있�
         <icon src="res/ios/icon.png" platform="ios" width="57" height="57" density="mdpi" />
     
 
-src: (필수) www 디렉토리를 기준으로 이미지 파일의 위치 지정
+src: (필수) 이미지 파일을 프로젝트 디렉터리에 상대적인 위치를 지정 합니다
 
 플랫폼: (선택 사항) 대상 플랫폼
 

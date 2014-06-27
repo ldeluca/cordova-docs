@@ -16,7 +16,7 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 
 # iOS WebViews
 
-В этом разделе показано, как внедрить компонент WebView Cordova поддержкой в рамках более крупных приложений iOS. Дополнительные сведения о том, как эти компоненты могут взаимодействовать друг с другом смотрите приложение плагины.
+В этом руководстве показано, как внедрить компонент WebView Cordova поддержкой в рамках более крупных приложений iOS. Дополнительные сведения о том, как эти компоненты могут взаимодействовать друг с другом смотрите приложение плагины.
 
 Поддержка iOS WebViews начал с Кордова версии 1.4, с помощью `Cleaver` компонент, для которого шаблон Xcode выступает в качестве эталонной реализации. Кордова 2.0 и более поздних версий поддерживают только реализация на основе подпроекта Кливер.
 
@@ -56,16 +56,10 @@ license: Licensed to the Apache Software Foundation (ASF) under one or more cont
 
 14. Выберите **+** кнопку и добавьте следующие **рамки**. При необходимости в **Диспетчере структуры проекта**, переместите их в группе **рамки** :
     
-        AddressBook.framework
-        AddressBookUI.framework
-        AudioToolbox.framework
-        AVFoundation.framework
+        AssetsLibrary.framework
         CoreLocation.framework
-        MediaPlayer.framework
-        QuartzCore.framework
-        SystemConfiguration.framework
+        CoreGraphics.framework
         MobileCoreServices.framework
-        CoreMedia.framework
         
 
 15. Разверните узел **Целевого объекта зависимостей**, приставки с этим ярлыком, если существует более одного окна.

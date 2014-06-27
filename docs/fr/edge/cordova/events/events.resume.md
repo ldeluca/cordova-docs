@@ -33,7 +33,7 @@ Les applications devraient en général utiliser `document.addEventListener` pou
 *   Android
 *   BlackBerry 10
 *   iOS
-*   Windows Phone 7 et 8
+*   Windows Phone 8
 *   Windows 8
 
 ## Exemple court

@@ -42,7 +42,7 @@ Ogni *Piattaforma guida* sottoelencate ti dice quello che dovete sapere per impo
 
 *   Guida piattaforma blackBerry 10
 *   BlackBerry 10 Shell strumento guida
-*   Configurazione di blackBerry
+*   Configurazione di blackBerry 10
 *   BlackBerry 10 plugin
 *   Strumenti della riga di comando di blackBerry 10
 *   L'aggiornamento di BlackBerry 10

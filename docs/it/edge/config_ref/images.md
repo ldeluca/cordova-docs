@@ -25,7 +25,7 @@ Quando funziona il CLI si può definire icone di app tramite `<icon>` elemento (
         <icon src="res/ios/icon.png" platform="ios" width="57" height="57" density="mdpi" />
     
 
-src: (obbligatorio) specifica il percorso del file immagine, relativo alla vostra directory www
+src: (obbligatorio) specifica il percorso del file immagine, relativo alla directory del progetto
 
 piattaforma: la piattaforma di destinazione (facoltativo)
 
